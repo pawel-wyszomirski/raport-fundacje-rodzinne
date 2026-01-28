@@ -34,27 +34,66 @@ Polska sukcesja wkroczyła w decydującą fazę – do października 2025 roku z
 
 ---
 
-## 📚 Struktura raportu
+## 📁 Struktura repozytorium
 
 ```
-├── Streszczenie zarządcze
-│   ├── Panel wskaźników sukcesu
-│   └── Mapa ryzyk strategicznych
-├── Rozdział 1: Prawdziwa hierarchia majątku
-├── Rozdział 2: „Cień fundatora" – jak wydobyć wiedzę nie do zapisania?
-├── Rozdział 3: Fundacja to nie tylko sejf – to mózg operacyjny rodziny
-├── Rozdział 4: Nowy szeryf w mieście – budowa autorytetu bez kopiowania
-├── Rozdział 5: Asystent mądrości założyciela – rola AI w zachowaniu wiedzy
-├── Rozdział 6: Bezpieczniki systemowe – jak chronić rodzinę przed nią samą?
-├── Rozdział 7: Poniedziałkowa agenda – mapa drogowa wdrożenia
-└── Aneks: Narzędziownik wdrożeniowy
+raport-fundacje-rodzinne/
+│
+├── 📄 README.md                    # Ten plik
+├── 📄 LICENSE                      # Licencja CC BY 4.0
+├── 📄 CHANGELOG.md                 # Historia zmian między wersjami
+├── 📄 CITATION.cff                 # Metadane do cytowania (GitHub)
+│
+├── 📂 raport/
+│   ├── raport-fundacje-rodzinne-v1.6.pdf      # 📥 Główny plik do pobrania
+│   ├── raport-fundacje-rodzinne-v1.6.docx     # Wersja edytowalna
+│   └── 📂 archiwum/                           # Poprzednie wersje
+│       └── ...
+│
+├── 📂 narzedzia/
+│   ├── narzedznik-wdrozeniowy.xlsx    # Arkusz z tabelami do wypełnienia
+│   ├── narzedznik-wdrozeniowy.pdf     # Wersja PDF narzędziownika
+│   ├── prompt-ai-konsultant.txt       # 🤖 Prompt systemowy dla AI
+│   └── checklist-90-dni.md            # ✅ Lista kontrolna wdrożenia
+│
+├── 📂 grafiki/
+│   ├── mapa-ryzyk.png                 # Wizualizacja mapy ryzyk
+│   ├── panel-wskaznikow.png           # Infografika KPI
+│   ├── schemat-5-tez.png              # Diagram 5 tez strategicznych
+│   └── 📂 src/                        # Pliki źródłowe (Figma, draw.io)
+│
+├── 📂 przyklady/
+│   ├── case-study-lpp.md              # Rozszerzone studium przypadku
+│   ├── case-study-raben.md
+│   └── szablon-konstytucji-rodzinnej.md
+│
+└── 📂 bibliografia/
+    ├── bibliografia.bib               # Pełna bibliografia w BibTeX
+    └── zrodla-dodatkowe.md            # Linki do artykułów, raportów
 ```
+
+---
+
+## 🚀 Szybki start
+
+### 1. Pobierz raport
+```
+raport/raport-fundacje-rodzinne-v1.6.pdf
+```
+
+### 2. Użyj narzędzi praktycznych
+- **[Checklist 90 dni](narzedzia/checklist-90-dni.md)** – mapa drogowa wdrożenia
+- **[Prompt AI](narzedzia/prompt-ai-konsultant.txt)** – konsultant do rozmowy z raportem
+- **Narzędziownik** – arkusz do audytu wiedzy organizacyjnej
+
+### 3. Zacytuj raport
+GitHub automatycznie rozpoznaje plik `CITATION.cff` – kliknij "Cite this repository" w prawym panelu.
 
 ---
 
 ## 🤖 Prompt dla asystenta AI
 
-Aby wykorzystać wiedzę z raportu w kontekście własnej firmy, wgraj PDF do swojego asystenta AI i użyj poniższego promptu:
+Aby wykorzystać wiedzę z raportu w kontekście własnej firmy, wgraj PDF do swojego asystenta AI i użyj [pełnego promptu](narzedzia/prompt-ai-konsultant.txt) lub wersji skróconej:
 
 ```
 SYSTEM MESSAGE 
@@ -74,13 +113,6 @@ OGRANICZENIA & STYL
 - Zakaz używania wiedzy spoza raportu (Grounding Only). 
 - Terminologia: Musisz używać pojęć „luka wynikowa" i „cień fundatora". 
 - Format: Konkret, lista punktowa, język biznesowy.
-
-KRYTERIA SUKCESU 
-Pierwsza interakcja musi zawierać tylko 3 pytania, które pozwolą przypisać 
-firmę do konkretnego kwadrantu ryzyka z raportu.
-
-WERYFIKACJA 
-Jeśli brak danych wejściowych, wskaż to precyzyjnie w analizie.
 ```
 
 ---
@@ -98,10 +130,27 @@ Jeśli brak danych wejściowych, wskaż to precyzyjnie w analizie.
 
 ## ⚠️ Mapa ryzyk strategicznych
 
-- **Ryzyko prawne** – zmienność interpretacyjna, nowelizacje podatkowe
-- **Ryzyko operacyjne** – „pusta fundacja" bez kompetentnego lidera
-- **Ryzyko psychologiczne** – nieświadomy sabotaż sukcesji przez fundatora (SEW)
-- **Ryzyko technologiczne** – wyciek wiedzy ukrytej do publicznych modeli AI
+| Ryzyko | Opis | Mitygacja |
+|--------|------|-----------|
+| **Prawne** | Zmienność interpretacyjna, nowelizacje podatkowe | Bufory płynnościowe |
+| **Operacyjne** | „Pusta fundacja" bez kompetentnego lidera | Procedura wyjście/wejście, zarząd zewnętrzny |
+| **Psychologiczne** | Sabotaż sukcesji przez fundatora (SEW) | Nowa rola dla nestora |
+| **Technologiczne** | Wyciek wiedzy do publicznych modeli AI | Infrastruktura on-premise |
+
+---
+
+## 📚 Struktura raportu
+
+| Rozdział | Tytuł | Kluczowe pojęcia |
+|----------|-------|------------------|
+| 1 | Prawdziwa hierarchia majątku | Kapitał kulturowy, społeczny, strukturalny |
+| 2 | „Cień fundatora" | Luka wynikowa, SEW, wiedza ukryta |
+| 3 | Fundacja jako mózg operacyjny | Governance, deadlock, algorytmizacja statutu |
+| 4 | Budowa autorytetu sukcesora | Legitymizacja, weryfikacja rynkowa, strefa autonomii |
+| 5 | Rola AI w zachowaniu wiedzy | RAG, human-in-the-loop, suwerenność danych |
+| 6 | Bezpieczniki systemowe | Kwalifikowana większość, arbitraż, żelazny kapitał |
+| 7 | Poniedziałkowa agenda | Checklist 90 dni, rytuał przejścia |
+| Aneks | Narzędziownik wdrożeniowy | Audyt wiedzy, mapa wpływów |
 
 ---
 
@@ -134,6 +183,7 @@ Paweł Wyszomirski, acus.systems
 
 ## 📖 Cytowanie
 
+### BibTeX
 ```bibtex
 @report{wyszomirski2026fundacje,
   author    = {Wyszomirski, Paweł},
@@ -146,6 +196,23 @@ Paweł Wyszomirski, acus.systems
   url       = {https://github.com/pawel-wyszomirski/raport-fundacje-rodzinne}
 }
 ```
+
+### APA
+```
+Wyszomirski, P. (2026). Dlaczego pieniądze to nie wszystko? Zarządzanie wiedzą 
+i kapitałem intelektualnym w fundacjach rodzinnych. OpenAir Paweł Wyszomirski.
+https://github.com/pawel-wyszomirski/raport-fundacje-rodzinne
+```
+
+---
+
+## 🤝 Współpraca
+
+Masz uwagi, propozycje lub chcesz podzielić się własnym case study?
+
+1. **Issues** – zgłoś błąd lub zaproponuj rozszerzenie
+2. **Pull Request** – dodaj materiały do katalogu `/przyklady`
+3. **Kontakt bezpośredni** – pawel@acus.systems
 
 ---
 
