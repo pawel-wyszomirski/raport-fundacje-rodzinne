@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: "Dlaczego pieniądze to nie wszystko? Zarządzanie wiedzą i kapitałem intelektualnym w fundacjach rodzinnych"
+message: "Jeśli korzystasz z tego raportu, proszę zacytuj go w następujący sposób."
+type: report
+authors:
+  - family-names: "Wyszomirski"
+    given-names: "Paweł"
+    email: "pawel@acus.systems"
+    affiliation: "acus.systems"
+identifiers:
+  - type: isbn
+    value: "978-83-961160-8-6"
+    description: "ISBN publikacji"
+repository-code: "https://github.com/pawel-wyszomirski/raport-fundacje-rodzinne"
+url: "https://acus.systems"
+abstract: >-
+  Raport analizuje wyzwania związane z zarządzaniem wiedzą i kapitałem 
+  intelektualnym w polskich fundacjach rodzinnych. Przedstawia 5 tez 
+  strategicznych dotyczących transferu międzypokoleniowego oraz 10 
+  rekomendacji wdrożeniowych. Omawia zjawisko „cienia fundatora", 
+  lukę wynikową w sukcesji oraz rolę sztucznej inteligencji 
+  w zachowaniu wiedzy organizacyjnej.
+keywords:
+  - fundacja rodzinna
+  - sukcesja
+  - firma rodzinna
+  - zarządzanie wiedzą
+  - kapitał intelektualny
+  - governance
+  - family business
+  - succession planning
+  - tacit knowledge
+license: CC-BY-4.0
+version: "1.6"
+date-released: "2026-01-01"
+publisher:
+  name: "OpenAir Paweł Wyszomirski"
+  city: "Katowice"
+  country: "PL"
+  address: "ul. Panewnicka 126/3, 40-761 Katowice"
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "Wyszomirski"
+      given-names: "Paweł"
+  title: "Dlaczego pieniądze to nie wszystko? Zarządzanie wiedzą i kapitałem intelektualnym w fundacjach rodzinnych"
+  year: 2026
+  publisher:
+    name: "OpenAir Paweł Wyszomirski"
+  isbn: "978-83-961160-8-6"
